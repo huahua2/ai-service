@@ -5,6 +5,6 @@ app.use(async ctx => {
   ctx.body = 'Hello World';
 });
 
-app.listen(3000, () => {
-  console.log('server is running at http://localhost:3000') //监控3000端口
+app.listen(80, () => {
+  console.log('server is running at http://localhost:80')
 })

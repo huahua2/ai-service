@@ -1,0 +1,25 @@
+{
+  "name": "ai-service",
+  "version": "1.0.0",
+  "description": "AI Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huahua2/ai-service.git"
+  },
+  "author": "lghua",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huahua2/ai-service/issues"
+  },
+  "homepage": "https://github.com/huahua2/ai-service#readme",
+  "keywords": [
+    "ai"
+  ],
+  "dependencies": {
+    "koa": "^2.14.1"
+  }
+}

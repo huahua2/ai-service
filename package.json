@@ -1,25 +1,19 @@
 {
-  "name": "ai-service",
-  "version": "1.0.0",
-  "description": "AI Service",
-  "main": "index.js",
+  "name": "openai-quickstart-node",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "start": "node ./src/index.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/huahua2/ai-service.git"
-  },
-  "author": "lghua",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/huahua2/ai-service/issues"
-  },
-  "homepage": "https://github.com/huahua2/ai-service#readme",
-  "keywords": [
-    "ai"
-  ],
   "dependencies": {
-    "koa": "^2.14.1"
+    "next": "^13.1.1",
+    "openai": "^3.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "engines": {
+    "node": ">=14.6.0"
   }
 }
